@@ -7,11 +7,9 @@ _Document généré automatiquement à partir des blocs 1 à 4._
 ## Sommaire
 
 - **[Bloc 1 — Concevoir et développer des applications logicielles](#bloc-1-concevoir-et-developper-des-applications-logicielles)**
-    - [Activité 1.1 : Étude du cahier des charges et de l’existant. Rédaction du cahier des spécifications fonctionnelles](#activite-11-etude-du-cahier-des-charges-et-de-lexistant-redaction-du-cahier-des-specifications-fonctionnelles)
-    - [Activité 1.2 : Conception d’une application logicielle](#activite-12-conception-dune-application-logicielle)
-    - [Activité 1.3 et 1.4](#activite-13-et-14)
-        - [Activité 1.3 — Programmation de briques et services logiciels. Conception de services métiers](#activite-13-programmation-de-briques-et-services-logiciels-conception-de-services-metiers)
-        - [Activité 1.4 — Conception de services d'accès aux données](#activite-14-conception-de-services-dacces-aux-donnees)
+    - [Activité 1.1 : Étude du cahier des charges et de l'existant. Rédaction du cahier des spécifications fonctionnelles](#activite-11-etude-du-cahier-des-charges-et-de-lexistant-redaction-du-cahier-des-specifications-fonctionnelles)
+    - [Activité 1.2 : Conception d'une application logicielle](#activite-12-conception-dune-application-logicielle)
+    - [Activités 1.3 et 1.4 : Programmation de briques et services logiciels, conception de services métiers et conception de services d'accès aux données](#activites-13-et-14-programmation-de-briques-et-services-logiciels-conception-de-services-metiers-et-conception-de-services-dacces-aux-donnees)
     - [Activité 1.5 et 1.6 : Préparation des jeux de tests unitaires, contrôles de l'existence d'anomalies](#activite-15-et-16-preparation-des-jeux-de-tests-unitaires-controles-de-lexistence-danomalies)
     - [Activité 1.7 : Détermination du nombre de tiers de l'application](#activite-17-determination-du-nombre-de-tiers-de-lapplication)
     - [Activité 1.8 : Réalisation d'une interface homme/machine (IHM) adaptative aux situations de handicap](#activite-18-realisation-dune-interface-hommemachine-ihm-adaptative-aux-situations-de-handicap)
@@ -25,17 +23,17 @@ _Document généré automatiquement à partir des blocs 1 à 4._
     - [Activité 2.5 : Conception d'une base de données](#activite-25-conception-dune-base-de-donnees)
     - [Activité 2.6 : Conception de l'architecture applicative](#activite-26-conception-de-larchitecture-applicative)
     - [Activité 2.7 : Conception de la solution logicielle](#activite-27-conception-de-la-solution-logicielle)
-    - [Activité 2.8 : Planification des tâches du projet](#activite-28-planification-des-tches-du-projet)
+    - [Activité 2.8 : Planification des tâches du projet](#activite-28-planification-des-taches-du-projet)
     - [Activité 2.9 : Coordination Agile de la programmation en équipe](#activite-29-coordination-agile-de-la-programmation-en-equipe)
     - [Activité 2.10 : Recettage du logiciel](#activite-210-recettage-du-logiciel)
     - [Activité 2.11 : Démonstrations et recettage des livrables aux clients](#activite-211-demonstrations-et-recettage-des-livrables-aux-clients)
     - [Activité 2.12 : Validation de mise en exploitation](#activite-212-validation-de-mise-en-exploitation)
     - [Activités 2.13 et 2.14 : Participation aux réunions, échanges avec les utilisateurs et communication avec les acteurs du projet](#activites-213-et-214-participation-aux-reunions-echanges-avec-les-utilisateurs-et-communication-avec-les-acteurs-du-projet)
 - **[Bloc 3 — Préparer le déploiement d'une application logicielle sécurisée](#bloc-3-preparer-le-deploiement-dune-application-logicielle-securisee)**
-    - [Activité 3.1 : Définir les spécifications techniques et fonctionnelles de l’application numérique](#activite-31-definir-les-specifications-techniques-et-fonctionnelles-de-lapplication-numerique)
+    - [Activité 3.1 : Définir les spécifications techniques et fonctionnelles de l'application numérique](#activite-31-definir-les-specifications-techniques-et-fonctionnelles-de-lapplication-numerique)
     - [Activité 3.2 : Développer à partir des spécifications fonctionnelles des algorithmes](#activite-32-developper-a-partir-des-specifications-fonctionnelles-des-algorithmes)
     - [Activité 3.3 : Transcription des algorithmes en code source](#activite-33-transcription-des-algorithmes-en-code-source)
-    - [Activité 3.4 : Modification d’un code existant et de son algorithme](#activite-34-modification-dun-code-existant-et-de-son-algorithme)
+    - [Activité 3.4 : Modification d'un code existant et de son algorithme](#activite-34-modification-dun-code-existant-et-de-son-algorithme)
     - [Activité 3.5 : Compilation, déverminage du code source](#activite-35-compilation-deverminage-du-code-source)
     - [Activité 3.6 et 3.7 : Agglomération des différents éléments logiciels en unités de traitement et intégration de fonctionnalités préprogrammées](#activite-36-et-37-agglomeration-des-differents-elements-logiciels-en-unites-de-traitement-et-integration-de-fonctionnalites-preprogrammees)
     - [Activité 3.8 : Réalisation des tests unitaires](#activite-38-realisation-des-tests-unitaires)
@@ -45,7 +43,8 @@ _Document généré automatiquement à partir des blocs 1 à 4._
     - [Activité 4.2 : Mise au point de tables de correspondance de données](#activite-42-mise-au-point-de-tables-de-correspondance-de-donnees)
     - [Activité 4.3 : Consolidation, agrégation de données](#activite-43-consolidation-agregation-de-donnees)
     - [Activité 4.4 : Contrôler les flux de données entre les logiciels](#activite-44-controler-les-flux-de-donnees-entre-les-logiciels)
-    - [Activité 4.5 : Réalisation d’un environnement de tests](#activite-45-realisation-dun-environnement-de-tests)
+    - [Activité 4.5 : Réalisation d'un environnement de tests](#activite-45-realisation-dun-environnement-de-tests)
+- **[Annexes](#annexes)**
 
 \newpage
 
@@ -55,7 +54,7 @@ _Document généré automatiquement à partir des blocs 1 à 4._
 
 \newpage
 
-### Activité 1.1 : Étude du cahier des charges et de l’existant. Rédaction du cahier des spécifications fonctionnelles
+### Activité 1.1 : Étude du cahier des charges et de l'existant. Rédaction du cahier des spécifications fonctionnelles
 
 J'ai pu acquérir cette compétence dans le cadre de mon alternance, lors d'une évolution fonctionnelle de l'API Nomenclatures utilisée par notre BFF assuré.
 
@@ -78,7 +77,7 @@ Grâce à cette évolution, le BFF est désormais capable de récupérer la list
 
 ---
 
-### Activité 1.2 : Conception d’une application logicielle
+### Activité 1.2 : Conception d'une application logicielle
 
 J'ai acquis cette compétence lors de la conception et du développement d'**ITeralis**, une plateforme communautaire permettant la consultation et le partage de cours de cybersécurité.
 
@@ -127,6 +126,8 @@ J'ai également choisi une organisation modulaire par domaines fonctionnels. Cha
 Cette architecture permet d'ajouter de nouvelles fonctionnalités sans remettre en cause les composants existants et facilite la compréhension globale du projet.
 
 L'ensemble de ces choix de conception a permis de produire une application organisée en couches indépendantes, respectant les bonnes pratiques d'architecture logicielle et répondant aux besoins actuels et futurs du projet.
+
+[Annexes](#annexes-12)
 
 ---
 
@@ -208,41 +209,7 @@ Enfin, l'ensemble des accès aux données repose sur Entity Framework Core et LI
 
 Cette architecture m'a permis de produire des services métiers réutilisables et des services d'accès aux données indépendants du mode de stockage, tout en garantissant la cohérence, la sécurité, la maintenabilité et l'évolutivité de l'application.
 
-### Annexe 1.3-1.4.1 : Projet ITeralis.Abstractions
-
-(abstraction.png)
-
-### Annexe 1.3-1.4.2 : Projet ITeralis.Application
-
-(application.png)
-
-### Annexe 1.3-1.4.3 : Projet ITeralis.Domain
-
-(domain.png)
-
-### Annexe 1.3-1.4.4 : Projet ITeralis.Repository
-
-(repository.png)
-
-### Annexe 1.3-1.4.5 : Projet ITeralis.Utilitaires
-
-(utilitaires.png)
-
-### Annexe 1.3-1.4.6 : DbContext Entity Framework
-
-(dbContext.png)
-
-### Annexe 1.3-1.4.7 : Exemple d'endpoint
-
-(endpoint.png)
-
-### Annexe 1.3-1.4.8 : Implémentation d'un Repository
-
-(interface.md)
-
-### Annexe 1.3-1.4.9 : Script d'initialisation de la base
-
-(script.png)
+[Annexes](#annexes-13-et-14)
 
 ---
 
@@ -276,13 +243,7 @@ Cette démarche m'a permis de disposer d'un référentiel de validation clair et
 
 La définition préalable de ces jeux de tests a contribué à sécuriser le développement du composant et à garantir un comportement cohérent quelles que soient les exceptions rencontrées, facilitant ainsi son intégration dans les différentes API de l'entreprise tout en limitant les risques de régression lors des évolutions futures.
 
-### Annexe 1.5-1.6.1 : Résultats d'exécution des tests
-
-(resultats.png)
-
-### Annexe 1.5-1.6.2 : Scénarios de tests unitaires
-
-(tests.md)
+[Annexes](#annexes-15-et-16)
 
 ---
 
@@ -318,17 +279,7 @@ J'ai également mis en place une séparation réseau entre les services. La base
 
 Cette architecture me permet d'anticiper les évolutions futures de la plateforme en répartissant les traitements entre plusieurs tiers spécialisés et en conservant la possibilité d'augmenter indépendamment les ressources allouées à chacun d'eux.
 
-### Annexe 1.7.1 : Architecture de l'API
-
-(api.png)
-
-### Annexe 1.7.2 : Configuration Docker Compose
-
-(compose.png)
-
-### Annexe 1.7.3 : Architecture du client Web
-
-(web.png)
+[Annexes](#annexes-17)
 
 ---
 
@@ -359,17 +310,7 @@ Enfin, j'ai respecté plusieurs bonnes pratiques fondamentales d'accessibilité 
 
 L'accessibilité a ainsi été prise en compte dès la conception de l'interface et non comme une correction ajoutée après développement. Cette démarche a permis de produire une interface plus inclusive, conforme aux recommandations du RGAA et des WCAG.
 
-### Annexe 1.8.1 : Déclaration de la langue du document
-
-(index_langFr.png)
-
-### Annexe 1.8.2 : Accessibilité des formulaires et labels
-
-(labels.md)
-
-### Annexe 1.8.3 : Structure générale de l'application
-
-(app.md)
+[Annexes](#annexes-18)
 
 ---
 
@@ -392,7 +333,7 @@ Afin de faciliter les contrôles lors des évolutions du RBAC, j'ai également d
 Cette analyse a permis d'identifier plusieurs mesures préventives destinées à améliorer la sécurité, la fiabilité et la maintenabilité du système d'autorisation tout en limitant les risques d'erreur humaine lors des évolutions futures.
 
 | Risque                           | Impact                                 | Criticité | Mesure préventive            |
-| -------------------------------- | -------------------------------------- | --------- | ---------------------------- |
+| --------------------------------- | --------------------------------------- | --------- | ----------------------------- |
 | JSON invalide                    | RBAC indisponible                      | Élevée    | Validation JSON Schema CI/CD |
 | Permission manquante             | Refus d'accès inattendu                | Moyenne   | Contrôle automatique         |
 | Cascade des permissions invalide | Erreur de construction des permissions | Élevée    | Validation structurelle      |
@@ -413,17 +354,7 @@ Chargement RBAC
         v
 Contrôle accès utilisateur
 
-### Annexe 1.9.1 : Structure des permissions RBAC
-
-(struct_permissions.json)
-
-### Annexe 1.9.2 : Exemple de permissions utilisateur
-
-(permissions_utilisateur.json)
-
-### Annexe 1.9.3 : Schéma de fonctionnement du RBAC
-
-(schemaRBAC.png)
+[Annexes](#annexes-19)
 
 ---
 
@@ -451,12 +382,9 @@ Le développement de cette bibliothèque a également respecté les conventions 
 
 Aujourd'hui, le composant est utilisé dans l'API BFF Assuré. Son architecture a été pensée pour être réutilisable dans les autres API BFF de l'entreprise, permettant ainsi de mutualiser la gestion des erreurs et de conserver un comportement homogène entre les différents services.
 
-### Annexe 1.10.1 : Exemple d'utilisation du CatchErrorBuilder
-
-(utilisation.md)
+[Annexes](#annexes-110)
 
 ---
-
 
 ### Activité 1.11 : Programmation de l'accès aux données de l'entreprise
 
@@ -484,21 +412,7 @@ Cette approche permet d'éviter l'exposition directe des erreurs SQL aux utilisa
 
 L'ensemble de ces mécanismes contribue à garantir l'intégrité des données, à limiter les risques de corruption de la base et à sécuriser les accès aux informations manipulées par la plateforme ITeralis.
 
-### Annexe 1.11.1 : Diagramme de la base de données
-
-(diagramme.png)
-
-### Annexe 1.11.2 : Gestion des contraintes d'unicité
-
-(exceptionUnique.png)
-
-### Annexe 1.11.3 : Middleware de gestion des exceptions
-
-(exceptionmiddleware.png)
-
-### Annexe 1.11.4 : Script d'initialisation MariaDB
-
-(init.sh)
+[Annexes](#annexes-111)
 
 ---
 
@@ -569,24 +483,9 @@ En appliquant systématiquement ce processus, j'ai participé au respect des pro
 
 Cette expérience m'a permis de comprendre l'importance des procédures dans le pilotage des développements et de mesurer leur rôle dans la maîtrise des risques liés aux projets informatiques.
 
-
-**Annexes associées** (voir `annexes_completes.zip/bloc2/2.1_2.2/`) :
-
-- `codeReview.png`
-
-- `commits.png`
-
-- `deploiementDev.png`
-
-- `mergeRequest1.png`
-
-- `mergeRequest2.png`
-
-- `ticketGit.png`
-
+[Annexes](#annexes-21-et-22)
 
 ---
-
 
 ### Activité 2.3 : Reconfiguration de processus
 
@@ -607,16 +506,9 @@ Cette évolution a permis de séparer les données de configuration de la logiqu
 
 Afin d'illustrer cette transformation, j'ai réalisé une comparaison entre l'ancien et le nouveau fonctionnement.
 
-
-**Annexes associées** (voir `annexes_completes.zip/bloc2/2.3/`) :
-
-- `apres.md`
-
-- `avant.md`
-
+[Annexes](#annexes-23)
 
 ---
-
 
 ### Activité 2.4 : Recensement des documents utilisés, cartographie de leur circulation
 
@@ -647,24 +539,9 @@ Cette analyse m'a permis d'identifier les différents documents intervenant dans
 Note Annexe
 Les étapes de revue de code, recette et mise en production font partie du workflow standard de l'équipe. Bien que je ne dispose plus de captures de ces étapes pour cette évolution, elles ont été intégrées au diagramme de circulation documentaire afin de représenter le processus effectivement suivi au sein du projet.
 
-
-**Annexes associées** (voir `annexes_completes.zip/bloc2/2.4/`) :
-
-- `SFD.docx`
-
-- `SFG.docx`
-
-- `UserStory.png`
-
-- `schema.drawio`
-
-- `ticket1.png`
-
-- `ticket2.png`
-
+[Annexes](#annexes-24)
 
 ---
-
 
 ### Activité 2.5 : Conception d'une base de données
 
@@ -696,16 +573,9 @@ Enfin, les relations entre les différentes entités ont été formalisées au t
 
 Cette modélisation m'a permis de concevoir une base de données adaptée aux besoins fonctionnels de l'application tout en conservant une structure cohérente, évolutive et maintenable.
 
-
-**Annexes associées** (voir `annexes_completes.zip/bloc2/2.5/`) :
-
-- `diagramme.png`
-
-- `init.sh`
-
+[Annexes](#annexes-25)
 
 ---
-
 
 ### Activité 2.6 : Conception de l'architecture applicative
 
@@ -775,20 +645,9 @@ Exemples :
 - Swagger/OpenAPI ;
 - consommation par le front web et l'application mobile.
 
-
-**Annexes associées** (voir `annexes_completes.zip/bloc2/2.6/`) :
-
-- `chargement.md`
-
-- `organisation.png`
-
-- `schemaSolution.drawio`
-
-- `swagger.json`
-
+[Annexes](#annexes-26)
 
 ---
-
 
 ### Activité 2.7 : Conception de la solution logicielle
 
@@ -861,20 +720,9 @@ Ainsi :
 
 Cette solution a permis de conserver le sens métier des erreurs lors des échanges entre APIs, d'éviter la perte d'information liée à l'encapsulation des exceptions et de simplifier fortement la lecture des endpoints. Le choix de développer ce composant plutôt que de gérer les exceptions individuellement dans chaque endpoint a permis de standardiser le traitement des erreurs, d'améliorer la maintenabilité du code et de garantir un comportement homogène au sein du BFF Assuré.
 
-
-**Annexes associées** (voir `annexes_completes.zip/bloc2/2.7/`) :
-
-- `AvantApres.md`
-
-- `apres.drawio`
-
-- `avant.drawio`
-
-- `methodes.md`
-
+[Annexes](#annexes-27)
 
 ---
-
 
 ### Activité 2.8 : Planification des tâches du projet
 
@@ -896,18 +744,9 @@ Au fil de mon alternance, j'ai ainsi appris à :
 
 Cette démarche permet d'améliorer la visibilité sur l'ensemble des activités réalisées et contribue à une meilleure organisation du travail au sein de l'équipe.
 
-
-**Annexes associées** (voir `annexes_completes.zip/bloc2/2.8/`) :
-
-- `NR2 Suivi avancement Semaine du 30042026.msg`
-
-- `avancement13.04.png`
-
-- `avancement27.04.png`
-
+[Annexes](#annexes-28)
 
 ---
-
 
 ### Activité 2.9 : Coordination Agile de la programmation en équipe
 
@@ -929,18 +768,9 @@ Cette organisation favorisait une communication continue entre les différents a
 
 Ces pratiques m'ont permis d'apprendre à travailler dans un environnement Agile, à communiquer efficacement sur l'état d'avancement de mes tâches et à participer à la coordination des développements réalisés par l'équipe.
 
-
-**Annexes associées** (voir `annexes_completes.zip/bloc2/2.9/`) :
-
-- `blocage.png`
-
-- `pointDev.png`
-
-- `pointDevBa.png`
-
+[Annexes](#annexes-29)
 
 ---
-
 
 ### Activité 2.10 : Recettage du logiciel
 
@@ -961,16 +791,9 @@ Une fois les vérifications effectuées, la recette a été prononcée et formal
 
 Cette étape m'a permis de participer au processus de validation fonctionnelle d'une évolution logicielle et de comprendre l'importance de la formalisation de l'acceptation d'un livrable avant sa mise en exploitation.
 
-
-**Annexes associées** (voir `annexes_completes.zip/bloc2/2.10/`) :
-
-- `PV de recette_CHG0060931.docx`
-
-- `swagger.md`
-
+[Annexes](#annexes-210)
 
 ---
-
 
 ### Activité 2.11 : Démonstrations et recettage des livrables aux clients
 
@@ -995,16 +818,9 @@ Les échanges ont permis de valider la pertinence de la solution dans le context
 
 Cette présentation m'a permis de développer ma capacité à adapter mon discours à différents interlocuteurs techniques, à vulgariser des concepts d'architecture logicielle et à justifier des choix de conception réalisés dans un contexte professionnel.
 
-
-**Annexes associées** (voir `annexes_completes.zip/bloc2/2.11/`) :
-
-- `Pr#U00e9sentation du pattern Builder.pptx`
-
-- `doc.md`
-
+[Annexes](#annexes-211)
 
 ---
-
 
 ### Activité 2.12 : Validation de mise en exploitation
 
@@ -1046,20 +862,9 @@ Cette démarche contribue à sécuriser les mises en production et à garantir q
 
 Cette activité m'a permis de comprendre les différentes étapes précédant une mise en exploitation, l'importance des validations réalisées en amont ainsi que les contrôles effectués après le déploiement afin de s'assurer du bon fonctionnement des applications en production.
 
-
-**Annexes associées** (voir `annexes_completes.zip/bloc2/2.12/`) :
-
-- `MergeRequest.png`
-
-- `PV de recette_CHG0060931.docx`
-
-- `kibana.png`
-
-- `ticket.png`
-
+[Annexes](#annexes-212)
 
 ---
-
 
 ### Activités 2.13 et 2.14 : Participation aux réunions, échanges avec les utilisateurs et communication avec les acteurs du projet
 
@@ -1105,29 +910,15 @@ Cette participation aux échanges fonctionnels et techniques ainsi que la rédac
 
 Ces activités ont contribué à améliorer la circulation de l'information au sein de l'équipe et à garantir une compréhension commune des besoins, des développements réalisés et des solutions mises en œuvre.
 
-
-**Annexes associées** (voir `annexes_completes.zip/bloc2/2.13_2.14/`) :
-
-- `docEN.md`
-
-- `docFR.md`
-
-- `echangeBA.png`
-
-- `pointDev.png`
-
-- `pointDevBa.png`
-
+[Annexes](#annexes-213-et-214)
 
 ---
-
 
 ## Bloc 3 — Préparer le déploiement d'une application logicielle sécurisée
 
 \newpage
 
-
-### Activité 3.1 : Définir les spécifications techniques et fonctionnelles de l’application numérique
+### Activité 3.1 : Définir les spécifications techniques et fonctionnelles de l'application numérique
 
 J'ai acquis cette compétence dans le cadre d'une étude réalisée au sein de l'entreprise portant sur la mise en place de tests d'architecture automatisés pour les projets .NET.
 
@@ -1169,18 +960,9 @@ La présentation de ces résultats a permis de répondre aux interrogations tech
 
 Cette démarche m'a permis d'apprendre à rechercher et comparer plusieurs solutions techniques, à formaliser leurs avantages et leurs limites, puis à présenter mes conclusions afin de faciliter la prise de décision
 
-
-**Annexes associées** (voir `annexes_completes.zip/bloc3/3.1/`) :
-
-- `Tests d#U2019architecture.pptx`
-
-- `exempleAnalyzer.md`
-
-- `solution.png`
-
+[Annexes](#annexes-31)
 
 ---
-
 
 ### Activité 3.2 : Développer à partir des spécifications fonctionnelles des algorithmes
 
@@ -1249,16 +1031,9 @@ La décomposition préalable du problème m'a permis d'identifier clairement les
 
 Cette démarche m'a permis de transformer une spécification fonctionnelle complexe en un algorithme structuré puis en une solution logicielle répondant aux besoins exprimés par le projet.
 
-
-**Annexes associées** (voir `annexes_completes.zip/bloc3/3.2/`) :
-
-- `Executer.md`
-
-- `documentation.md`
-
+[Annexes](#annexes-32)
 
 ---
-
 
 ### Activité 3.3 : Transcription des algorithmes en code source
 
@@ -1326,20 +1101,11 @@ Afin de contrôler le résultat produit, j'ai également développé un endpoint
 
 Cette activité m'a permis de transformer des règles fonctionnelles complexes de gestion des autorisations en un algorithme structuré puis en une implémentation logicielle capable de construire dynamiquement les permissions utilisées par le système d'information.
 
-
-**Annexes associées** (voir `annexes_completes.zip/bloc3/3.3/`) :
-
-- `exemplePartenaire.json`
-
-- `methodes.md`
-
-- `structurePerm.json`
-
+[Annexes](#annexes-33)
 
 ---
 
-
-### Activité 3.4 : Modification d’un code existant et de son algorithme
+### Activité 3.4 : Modification d'un code existant et de son algorithme
 
 J'ai acquis cette compétence lors de l'évolution du système de gestion des autorisations (**RBAC**) de l'entreprise.
 
@@ -1374,20 +1140,9 @@ Après la modification du code, plusieurs vérifications ont été réalisées a
 
 Cette évolution m'a permis de modifier un algorithme existant en comprenant son fonctionnement initial, puis en l'adaptant à une nouvelle architecture tout en garantissant la compatibilité du résultat attendu.
 
-
-**Annexes associées** (voir `annexes_completes.zip/bloc3/3.4/`) :
-
-- `avant.md`
-
-- `exemplePartenaire.json`
-
-- `methodes.md`
-
-- `structurePerm.json`
-
+[Annexes](#annexes-34)
 
 ---
-
 
 ### Activité 3.5 : Compilation, déverminage du code source
 
@@ -1412,22 +1167,9 @@ Les résultats obtenus ont confirmé la correction du problème ainsi que le bon
 
 Cette activité m'a permis de mettre en œuvre une démarche complète de déverminage : reproduction d'une anomalie, analyse en mode Debug, identification de la cause racine, correction du code puis validation du comportement attendu au travers de tests techniques.
 
-
-**Annexes associées** (voir `annexes_completes.zip/bloc3/3.5/`) :
-
-- `Exception.png`
-
-- `apresCorrection.png`
-
-- `configApres.json`
-
-- `configAvant.json`
-
-- `variableLocales.png`
-
+[Annexes](#annexes-35)
 
 ---
-
 
 ### Activité 3.6 et 3.7 : Agglomération des différents éléments logiciels en unités de traitement et intégration de fonctionnalités préprogrammées
 
@@ -1487,18 +1229,9 @@ Cette démarche présente également un intérêt en matière d'éco-conception 
 
 L'ensemble de ces composants a été intégré afin de produire une application cohérente, prête à être soumise aux tests techniques puis déployée dans les différents environnements de l'entreprise.
 
-
-**Annexes associées** (voir `annexes_completes.zip/bloc3/3.6_3.7/`) :
-
-- `config.md`
-
-- `exempleRepository.md`
-
-- `projetClient.png`
-
+[Annexes](#annexes-36-et-37)
 
 ---
-
 
 ### Activité 3.8 : Réalisation des tests unitaires
 
@@ -1536,20 +1269,9 @@ Cette démarche m'a également permis de vérifier l'absence de régression fonc
 
 L'ensemble des tests étant validés, les résultats obtenus ont confirmé que le composant produisait les réponses attendues dans tous les scénarios couverts et qu'aucun défaut d'exécution n'était détecté sur les cas de test définis.
 
-
-**Annexes associées** (voir `annexes_completes.zip/bloc3/3.8/`) :
-
-- `resultat.png`
-
-- `tableau.md`
-
-- `test.md`
-
-- `testNonGere.md`
-
+[Annexes](#annexes-38)
 
 ---
-
 
 ### Activité 3.9 : Mise à jour du planning de réalisation
 
@@ -1581,23 +1303,13 @@ Cette activité m'a permis de développer ma capacité à :
 
 La mise à jour de ce suivi hebdomadaire a ainsi contribué au pilotage des projets de l'équipe et à une meilleure visibilité de l'avancement des développements réalisés pendant mon alternance.
 
-
-**Annexes associées** (voir `annexes_completes.zip/bloc3/3.9/`) :
-
-- `NR2 Suivi avancement Semaine du 30042026.msg`
-
-- `avancement13.04.png`
-
-- `avancement27.04.png`
-
+[Annexes](#annexes-39)
 
 ---
-
 
 ## Bloc 4 — Réaliser une interface d'échange de données informatisées
 
 \newpage
-
 
 ### Activité 4.1 : Rétro-documentation de logiciels et de bases de données
 
@@ -1659,18 +1371,9 @@ Elle permet aujourd'hui à un développeur de comprendre rapidement le rôle du 
 
 Cette activité m'a permis de développer ma capacité à étudier un logiciel existant, à comprendre son fonctionnement interne puis à formaliser ces connaissances sous forme d'une documentation technique fiable, utilisable et maintenable par les membres de l'équipe.
 
-
-**Annexes associées** (voir `annexes_completes.zip/bloc4/4.1/`) :
-
-- `_static/image.png`
-
-- `documentation.md`
-
-- `exemple.md`
-
+[Annexes](#annexes-41)
 
 ---
-
 
 ### Activité 4.2 : Mise au point de tables de correspondance de données
 
@@ -1705,7 +1408,7 @@ Le mapper centralise l'ensemble des règles de correspondance entre les objets B
 Par exemple, les informations du bénéficiaire sont transformées selon les règles suivantes :
 
 | DTO BPM                       | DTO BFF                       |
-| ----------------------------- | ----------------------------- |
+| ------------------------------ | ------------------------------ |
 | Identifiant                   | Identifiant                   |
 | Nom                           | Nom                           |
 | Prenom                        | Prenom                        |
@@ -1727,7 +1430,7 @@ Une correspondance particulière a également été mise en place pour l'identif
 Le BFF doit exposer ces informations dans trois propriétés distinctes :
 
 | Donnée source BPM      | Donnée cible BFF           |
-| ---------------------- | -------------------------- |
+| ------------------------ | ---------------------------- |
 | IdentifiantDecompteEdi | IdentifiantFichier         |
 | IdentifiantDecompteEdi | IdentifiantLot             |
 | IdentifiantDecompteEdi | IdentifiantDecompteArchive |
@@ -1744,16 +1447,9 @@ Cette approche facilite la maintenance du système tout en garantissant qu'aucun
 
 Cette activité m'a permis d'analyser les modèles de données de deux applications distinctes puis de formaliser les règles de correspondance nécessaires à leurs échanges.
 
-
-**Annexes associées** (voir `annexes_completes.zip/bloc4/4.2/`) :
-
-- `mapper.md`
-
-- `mappingDto.md`
-
+[Annexes](#annexes-42)
 
 ---
-
 
 ### Activité 4.3 : Consolidation, agrégation de données
 
@@ -1849,20 +1545,9 @@ Cette approche permet de produire des informations directement exploitables par 
 
 Cette activité m'a permis de mettre en œuvre un mécanisme d'agrégation de données provenant de plusieurs APIs du système d'information. Les informations retournées par le BPM ont été enrichies à l'aide de données récupérées dans NR2 afin de produire une nouvelle information métier, directement exploitable par les applications clientes, sans leur imposer la connaissance des règles de consolidation sous-jacentes.
 
-
-**Annexes associées** (voir `annexes_completes.zip/bloc4/4.3/`) :
-
-- `SplitIdentifiant.md`
-
-- `TrouverLibelle.md`
-
-- `appelsClient.md`
-
-- `mappingDto.md`
-
+[Annexes](#annexes-43)
 
 ---
-
 
 ### Activité 4.4 : Contrôler les flux de données entre les logiciels
 
@@ -1951,20 +1636,11 @@ L'ensemble des fonctionnalités développées repose ainsi sur des flux synchron
 
 Cette activité m'a permis d'acquérir une compréhension approfondie des mécanismes d'échange de données entre applications et des contraintes liées à la compatibilité des systèmes communiquant entre eux.
 
-
-**Annexes associées** (voir `annexes_completes.zip/bloc4/4.4/`) :
-
-- `configClient.md`
-
-- `exempleLog.png`
-
-- `schema.drawio`
-
+[Annexes](#annexes-44)
 
 ---
 
-
-### Activité 4.5 : Réalisation d’un environnement de tests
+### Activité 4.5 : Réalisation d'un environnement de tests
 
 J'ai acquis cette compétence lors du développement du projet **ITeralis**, une plateforme communautaire permettant la consultation et le partage de cours de cybersécurité.
 
@@ -2105,14 +1781,7 @@ docker compose down
 
 La mise en place de cet environnement m'a permis de disposer d'une plateforme complète de développement et de validation, fidèle à l'architecture réelle de l'application. L'ensemble des composants peut être déployé de façon reproductible sur n'importe quelle machine disposant de Docker, ce qui facilite les tests techniques et garantit l'homogénéité des environnements utilisés par les différents développeurs du projet.
 
-
-**Annexes associées** (voir `annexes_completes.zip/bloc4/4.5/`) :
-
-- `docker-compose.yml`
-
-- `dockerFiles.md`
-
-- `init.sh`
+[Annexes](#annexes-45)
 
 ---
 
@@ -2139,6 +1808,8 @@ annexe/1.1/requete.md
 #### Annexe 1.2.1 : Schema d'application
 
 annexe/1.2/schema.drawio
+
+---
 
 ### Annexes 1.3 et 1.4
 
@@ -2269,3 +1940,443 @@ annexe/1.11/exceptionmiddleware.png
 #### Annexe 1.11.4 : Script d'initialisation MariaDB
 
 annexe/1.11/init.sh
+
+---
+
+### Annexes 2.1 et 2.2
+
+#### Annexe 2.1-2.2.1 : Revue de code réalisée sur la Merge Request
+
+annexes_completes.zip/bloc2/2.1_2.2/codeReview.png
+
+#### Annexe 2.1-2.2.2 : Historique des commits associés à l'évolution
+
+annexes_completes.zip/bloc2/2.1_2.2/commits.png
+
+#### Annexe 2.1-2.2.3 : Déploiement de l'évolution sur l'environnement de développement
+
+annexes_completes.zip/bloc2/2.1_2.2/deploiementDev.png
+
+#### Annexe 2.1-2.2.4 : Merge Request associée à l'évolution (1)
+
+annexes_completes.zip/bloc2/2.1_2.2/mergeRequest1.png
+
+#### Annexe 2.1-2.2.5 : Merge Request associée à l'évolution (2)
+
+annexes_completes.zip/bloc2/2.1_2.2/mergeRequest2.png
+
+#### Annexe 2.1-2.2.6 : Ticket GitLab de la demande
+
+annexes_completes.zip/bloc2/2.1_2.2/ticketGit.png
+
+---
+
+### Annexes 2.3
+
+#### Annexe 2.3.1 : Fonctionnement du RBAC après l'évolution
+
+annexes_completes.zip/bloc2/2.3/apres.md
+
+#### Annexe 2.3.2 : Fonctionnement du RBAC avant l'évolution
+
+annexes_completes.zip/bloc2/2.3/avant.md
+
+---
+
+### Annexes 2.4
+
+#### Annexe 2.4.1 : Spécifications Fonctionnelles Détaillées (SFD)
+
+annexes_completes.zip/bloc2/2.4/SFD.docx
+
+#### Annexe 2.4.2 : Spécifications Fonctionnelles Générales (SFG)
+
+annexes_completes.zip/bloc2/2.4/SFG.docx
+
+#### Annexe 2.4.3 : User Story créée dans GitLab
+
+annexes_completes.zip/bloc2/2.4/UserStory.png
+
+#### Annexe 2.4.4 : Schéma de circulation documentaire
+
+annexes_completes.zip/bloc2/2.4/schema.drawio
+
+#### Annexe 2.4.5 : Ticket technique associé (1)
+
+annexes_completes.zip/bloc2/2.4/ticket1.png
+
+#### Annexe 2.4.6 : Ticket technique associé (2)
+
+annexes_completes.zip/bloc2/2.4/ticket2.png
+
+---
+
+### Annexes 2.5
+
+#### Annexe 2.5.1 : Diagramme de la base de données
+
+annexes_completes.zip/bloc2/2.5/diagramme.png
+
+#### Annexe 2.5.2 : Script d'initialisation de la base
+
+annexes_completes.zip/bloc2/2.5/init.sh
+
+---
+
+### Annexes 2.6
+
+#### Annexe 2.6.1 : Chargement des modules et injection de dépendances
+
+annexes_completes.zip/bloc2/2.6/chargement.md
+
+#### Annexe 2.6.2 : Organisation de la solution par Features
+
+annexes_completes.zip/bloc2/2.6/organisation.png
+
+#### Annexe 2.6.3 : Schéma d'architecture de la solution
+
+annexes_completes.zip/bloc2/2.6/schemaSolution.drawio
+
+#### Annexe 2.6.4 : Contrat Swagger/OpenAPI exposé
+
+annexes_completes.zip/bloc2/2.6/swagger.json
+
+---
+
+### Annexes 2.7
+
+#### Annexe 2.7.1 : Comparaison du traitement des erreurs avant/après
+
+annexes_completes.zip/bloc2/2.7/AvantApres.md
+
+#### Annexe 2.7.2 : Schéma du traitement des erreurs après le CatchErrorBuilder
+
+annexes_completes.zip/bloc2/2.7/apres.drawio
+
+#### Annexe 2.7.3 : Schéma du traitement des erreurs avant le CatchErrorBuilder
+
+annexes_completes.zip/bloc2/2.7/avant.drawio
+
+#### Annexe 2.7.4 : Méthodes exposées par le CatchErrorBuilder
+
+annexes_completes.zip/bloc2/2.7/methodes.md
+
+---
+
+### Annexes 2.8
+
+#### Annexe 2.8.1 : Suivi d'avancement hebdomadaire NR2 (semaine du 30/04/2026)
+
+annexes_completes.zip/bloc2/2.8/NR2 Suivi avancement Semaine du 30042026.msg
+
+#### Annexe 2.8.2 : Tableau d'avancement du 13/04
+
+annexes_completes.zip/bloc2/2.8/avancement13.04.png
+
+#### Annexe 2.8.3 : Tableau d'avancement du 27/04
+
+annexes_completes.zip/bloc2/2.8/avancement27.04.png
+
+---
+
+### Annexes 2.9
+
+#### Annexe 2.9.1 : Exemple de blocage remonté en daily meeting
+
+annexes_completes.zip/bloc2/2.9/blocage.png
+
+#### Annexe 2.9.2 : Point développeurs
+
+annexes_completes.zip/bloc2/2.9/pointDev.png
+
+#### Annexe 2.9.3 : Point développeurs / Business Analysts
+
+annexes_completes.zip/bloc2/2.9/pointDevBa.png
+
+---
+
+### Annexes 2.10
+
+#### Annexe 2.10.1 : Procès-verbal de recette (CHG0060931)
+
+annexes_completes.zip/bloc2/2.10/PV de recette_CHG0060931.docx
+
+#### Annexe 2.10.2 : Documentation Swagger de l'évolution
+
+annexes_completes.zip/bloc2/2.10/swagger.md
+
+---
+
+### Annexes 2.11
+
+#### Annexe 2.11.1 : Présentation du pattern Builder
+
+annexes_completes.zip/bloc2/2.11/Présentation du pattern Builder.pptx
+
+#### Annexe 2.11.2 : Support de documentation associé
+
+annexes_completes.zip/bloc2/2.11/doc.md
+
+---
+
+### Annexes 2.12
+
+#### Annexe 2.12.1 : Merge Request associée à l'évolution
+
+annexes_completes.zip/bloc2/2.12/MergeRequest.png
+
+#### Annexe 2.12.2 : Procès-verbal de recette (CHG0060931)
+
+annexes_completes.zip/bloc2/2.12/PV de recette_CHG0060931.docx
+
+#### Annexe 2.12.3 : Analyse des journaux Kibana après mise en production
+
+annexes_completes.zip/bloc2/2.12/kibana.png
+
+#### Annexe 2.12.4 : Ticket associé à l'évolution
+
+annexes_completes.zip/bloc2/2.12/ticket.png
+
+---
+
+### Annexes 2.13 et 2.14
+
+#### Annexe 2.13-2.14.1 : Documentation technique en anglais
+
+annexes_completes.zip/bloc2/2.13_2.14/docEN.md
+
+#### Annexe 2.13-2.14.2 : Documentation technique en français
+
+annexes_completes.zip/bloc2/2.13_2.14/docFR.md
+
+#### Annexe 2.13-2.14.3 : Échange avec un Business Analyst
+
+annexes_completes.zip/bloc2/2.13_2.14/echangeBA.png
+
+#### Annexe 2.13-2.14.4 : Point développeurs
+
+annexes_completes.zip/bloc2/2.13_2.14/pointDev.png
+
+#### Annexe 2.13-2.14.5 : Point développeurs / Business Analysts
+
+annexes_completes.zip/bloc2/2.13_2.14/pointDevBa.png
+
+---
+
+### Annexes 3.1
+
+#### Annexe 3.1.1 : Présentation "Tests d'architecture"
+
+annexes_completes.zip/bloc3/3.1/Tests d'architecture.pptx
+
+#### Annexe 3.1.2 : Exemple d'utilisation du Roslyn Analyzer
+
+annexes_completes.zip/bloc3/3.1/exempleAnalyzer.md
+
+#### Annexe 3.1.3 : Solution retenue à l'issue de l'étude
+
+annexes_completes.zip/bloc3/3.1/solution.png
+
+---
+
+### Annexes 3.2
+
+#### Annexe 3.2.1 : Méthode Executer() du CatchErrorBuilder
+
+annexes_completes.zip/bloc3/3.2/Executer.md
+
+#### Annexe 3.2.2 : Documentation du CatchErrorBuilder
+
+annexes_completes.zip/bloc3/3.2/documentation.md
+
+---
+
+### Annexes 3.3
+
+#### Annexe 3.3.1 : Exemple de configuration d'un partenaire
+
+annexes_completes.zip/bloc3/3.3/exemplePartenaire.json
+
+#### Annexe 3.3.2 : Méthodes de construction des permissions
+
+annexes_completes.zip/bloc3/3.3/methodes.md
+
+#### Annexe 3.3.3 : Structure hiérarchique des permissions
+
+annexes_completes.zip/bloc3/3.3/structurePerm.json
+
+---
+
+### Annexes 3.4
+
+#### Annexe 3.4.1 : Fonctionnement du RBAC avant l'évolution
+
+annexes_completes.zip/bloc3/3.4/avant.md
+
+#### Annexe 3.4.2 : Exemple de configuration d'un partenaire
+
+annexes_completes.zip/bloc3/3.4/exemplePartenaire.json
+
+#### Annexe 3.4.3 : Méthodes de construction des permissions
+
+annexes_completes.zip/bloc3/3.4/methodes.md
+
+#### Annexe 3.4.4 : Structure hiérarchique des permissions
+
+annexes_completes.zip/bloc3/3.4/structurePerm.json
+
+---
+
+### Annexes 3.5
+
+#### Annexe 3.5.1 : Exception observée lors du débogage
+
+annexes_completes.zip/bloc3/3.5/Exception.png
+
+#### Annexe 3.5.2 : Résultat après correction
+
+annexes_completes.zip/bloc3/3.5/apresCorrection.png
+
+#### Annexe 3.5.3 : Configuration du client après correction
+
+annexes_completes.zip/bloc3/3.5/configApres.json
+
+#### Annexe 3.5.4 : Configuration du client avant correction
+
+annexes_completes.zip/bloc3/3.5/configAvant.json
+
+#### Annexe 3.5.5 : Variables locales observées en mode Debug
+
+annexes_completes.zip/bloc3/3.5/variableLocales.png
+
+---
+
+### Annexes 3.6 et 3.7
+
+#### Annexe 3.6-3.7.1 : Configuration des Building Blocks mutualisés
+
+annexes_completes.zip/bloc3/3.6_3.7/config.md
+
+#### Annexe 3.6-3.7.2 : Exemple d'implémentation d'un Repository BFF
+
+annexes_completes.zip/bloc3/3.6_3.7/exempleRepository.md
+
+#### Annexe 3.6-3.7.3 : Structure d'un projet Client
+
+annexes_completes.zip/bloc3/3.6_3.7/projetClient.png
+
+---
+
+### Annexes 3.8
+
+#### Annexe 3.8.1 : Résultat d'exécution des tests unitaires
+
+annexes_completes.zip/bloc3/3.8/resultat.png
+
+#### Annexe 3.8.2 : Tableau récapitulatif des scénarios de tests
+
+annexes_completes.zip/bloc3/3.8/tableau.md
+
+#### Annexe 3.8.3 : Exemple de test unitaire
+
+annexes_completes.zip/bloc3/3.8/test.md
+
+#### Annexe 3.8.4 : Exemple de test sur une exception non gérée
+
+annexes_completes.zip/bloc3/3.8/testNonGere.md
+
+---
+
+### Annexes 3.9
+
+#### Annexe 3.9.1 : Suivi d'avancement hebdomadaire NR2 (semaine du 30/04/2026)
+
+annexes_completes.zip/bloc3/3.9/NR2 Suivi avancement Semaine du 30042026.msg
+
+#### Annexe 3.9.2 : Tableau d'avancement du 13/04
+
+annexes_completes.zip/bloc3/3.9/avancement13.04.png
+
+#### Annexe 3.9.3 : Tableau d'avancement du 27/04
+
+annexes_completes.zip/bloc3/3.9/avancement27.04.png
+
+---
+
+### Annexes 4.1
+
+#### Annexe 4.1.1 : Illustration du fonctionnement du SQLLogRebuilder
+
+annexes_completes.zip/bloc4/4.1/_static/image.png
+
+#### Annexe 4.1.2 : Documentation technique du SQLLogRebuilder
+
+annexes_completes.zip/bloc4/4.1/documentation.md
+
+#### Annexe 4.1.3 : Exemple d'utilisation du SQLLogRebuilder
+
+annexes_completes.zip/bloc4/4.1/exemple.md
+
+---
+
+### Annexes 4.2
+
+#### Annexe 4.2.1 : Implémentation du ListerDecomptesEdiGelesMapper
+
+annexes_completes.zip/bloc4/4.2/mapper.md
+
+#### Annexe 4.2.2 : Tables de correspondance des DTOs BPM/BFF
+
+annexes_completes.zip/bloc4/4.2/mappingDto.md
+
+---
+
+### Annexes 4.3
+
+#### Annexe 4.3.1 : Méthode SplitIndentifiantDecompte()
+
+annexes_completes.zip/bloc4/4.3/SplitIdentifiant.md
+
+#### Annexe 4.3.2 : Méthode TrouverLibelleDecompte()
+
+annexes_completes.zip/bloc4/4.3/TrouverLibelle.md
+
+#### Annexe 4.3.3 : Appels aux clients BPM et NR2
+
+annexes_completes.zip/bloc4/4.3/appelsClient.md
+
+#### Annexe 4.3.4 : Tables de correspondance des DTOs BPM/BFF
+
+annexes_completes.zip/bloc4/4.3/mappingDto.md
+
+---
+
+### Annexes 4.4
+
+#### Annexe 4.4.1 : Configuration des projets Clients
+
+annexes_completes.zip/bloc4/4.4/configClient.md
+
+#### Annexe 4.4.2 : Exemple de journalisation d'un échange
+
+annexes_completes.zip/bloc4/4.4/exempleLog.png
+
+#### Annexe 4.4.3 : Schéma des flux de données entre le BFF et le système d'information
+
+annexes_completes.zip/bloc4/4.4/schema.drawio
+
+---
+
+### Annexes 4.5
+
+#### Annexe 4.5.1 : Fichier docker-compose.yml
+
+annexes_completes.zip/bloc4/4.5/docker-compose.yml
+
+#### Annexe 4.5.2 : Dockerfiles des conteneurs API et Frontend
+
+annexes_completes.zip/bloc4/4.5/dockerFiles.md
+
+#### Annexe 4.5.3 : Script d'initialisation de la base MariaDB
+
+annexes_completes.zip/bloc4/4.5/init.sh
