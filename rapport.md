@@ -1,6 +1,53 @@
-# Dossier de compétences — Portefeuille de preuves
+# Dossier de compétences — Portefeuille d'annexes
 
 _Document généré automatiquement à partir des blocs 1 à 4._
+
+\newpage
+
+## Sommaire
+
+- **[Bloc 1 — Concevoir et développer des applications logicielles](#bloc-1-concevoir-et-developper-des-applications-logicielles)**
+    - [Activité 1.1 : Étude du cahier des charges et de l’existant. Rédaction du cahier des spécifications fonctionnelles](#activite-11-etude-du-cahier-des-charges-et-de-lexistant-redaction-du-cahier-des-specifications-fonctionnelles)
+    - [Activité 1.2 : Conception d’une application logicielle](#activite-12-conception-dune-application-logicielle)
+    - [Activité 1.3 et 1.4](#activite-13-et-14)
+        - [Activité 1.3 — Programmation de briques et services logiciels. Conception de services métiers](#activite-13-programmation-de-briques-et-services-logiciels-conception-de-services-metiers)
+        - [Activité 1.4 — Conception de services d'accès aux données](#activite-14-conception-de-services-dacces-aux-donnees)
+    - [Activité 1.5 et 1.6 : Préparation des jeux de tests unitaires, contrôles de l'existence d'anomalies](#activite-15-et-16-preparation-des-jeux-de-tests-unitaires-controles-de-lexistence-danomalies)
+    - [Activité 1.7 : Détermination du nombre de tiers de l'application](#activite-17-determination-du-nombre-de-tiers-de-lapplication)
+    - [Activité 1.8 : Réalisation d'une interface homme/machine (IHM) adaptative aux situations de handicap](#activite-18-realisation-dune-interface-hommemachine-ihm-adaptative-aux-situations-de-handicap)
+    - [Activité 1.9 : Estimation, qualification des risques de sécurité](#activite-19-estimation-qualification-des-risques-de-securite)
+    - [Activité 1.10 : Amélioration de la qualité du logiciel et du code produit](#activite-110-amelioration-de-la-qualite-du-logiciel-et-du-code-produit)
+    - [Activité 1.11 : Programmation de l'accès aux données de l'entreprise](#activite-111-programmation-de-lacces-aux-donnees-de-lentreprise)
+- **[Bloc 2 — Assurer la maintenance corrective et évolutive d'une application logicielle](#bloc-2-assurer-la-maintenance-corrective-et-evolutive-dune-application-logicielle)**
+    - [Activités 2.1 et 2.2 : Étude des procédures existantes, identification des procédures en place et contrôle de leur conformité avec la gouvernance de l'entreprise](#activites-21-et-22-etude-des-procedures-existantes-identification-des-procedures-en-place-et-controle-de-leur-conformite-avec-la-gouvernance-de-lentreprise)
+    - [Activité 2.3 : Reconfiguration de processus](#activite-23-reconfiguration-de-processus)
+    - [Activité 2.4 : Recensement des documents utilisés, cartographie de leur circulation](#activite-24-recensement-des-documents-utilises-cartographie-de-leur-circulation)
+    - [Activité 2.5 : Conception d'une base de données](#activite-25-conception-dune-base-de-donnees)
+    - [Activité 2.6 : Conception de l'architecture applicative](#activite-26-conception-de-larchitecture-applicative)
+    - [Activité 2.7 : Conception de la solution logicielle](#activite-27-conception-de-la-solution-logicielle)
+    - [Activité 2.8 : Planification des tâches du projet](#activite-28-planification-des-tches-du-projet)
+    - [Activité 2.9 : Coordination Agile de la programmation en équipe](#activite-29-coordination-agile-de-la-programmation-en-equipe)
+    - [Activité 2.10 : Recettage du logiciel](#activite-210-recettage-du-logiciel)
+    - [Activité 2.11 : Démonstrations et recettage des livrables aux clients](#activite-211-demonstrations-et-recettage-des-livrables-aux-clients)
+    - [Activité 2.12 : Validation de mise en exploitation](#activite-212-validation-de-mise-en-exploitation)
+    - [Activités 2.13 et 2.14 : Participation aux réunions, échanges avec les utilisateurs et communication avec les acteurs du projet](#activites-213-et-214-participation-aux-reunions-echanges-avec-les-utilisateurs-et-communication-avec-les-acteurs-du-projet)
+- **[Bloc 3 — Préparer le déploiement d'une application logicielle sécurisée](#bloc-3-preparer-le-deploiement-dune-application-logicielle-securisee)**
+    - [Activité 3.1 : Définir les spécifications techniques et fonctionnelles de l’application numérique](#activite-31-definir-les-specifications-techniques-et-fonctionnelles-de-lapplication-numerique)
+    - [Activité 3.2 : Développer à partir des spécifications fonctionnelles des algorithmes](#activite-32-developper-a-partir-des-specifications-fonctionnelles-des-algorithmes)
+    - [Activité 3.3 : Transcription des algorithmes en code source](#activite-33-transcription-des-algorithmes-en-code-source)
+    - [Activité 3.4 : Modification d’un code existant et de son algorithme](#activite-34-modification-dun-code-existant-et-de-son-algorithme)
+    - [Activité 3.5 : Compilation, déverminage du code source](#activite-35-compilation-deverminage-du-code-source)
+    - [Activité 3.6 et 3.7 : Agglomération des différents éléments logiciels en unités de traitement et intégration de fonctionnalités préprogrammées](#activite-36-et-37-agglomeration-des-differents-elements-logiciels-en-unites-de-traitement-et-integration-de-fonctionnalites-preprogrammees)
+    - [Activité 3.8 : Réalisation des tests unitaires](#activite-38-realisation-des-tests-unitaires)
+    - [Activité 3.9 : Mise à jour du planning de réalisation](#activite-39-mise-a-jour-du-planning-de-realisation)
+- **[Bloc 4 — Réaliser une interface d'échange de données informatisées](#bloc-4-realiser-une-interface-dechange-de-donnees-informatisees)**
+    - [Activité 4.1 : Rétro-documentation de logiciels et de bases de données](#activite-41-retro-documentation-de-logiciels-et-de-bases-de-donnees)
+    - [Activité 4.2 : Mise au point de tables de correspondance de données](#activite-42-mise-au-point-de-tables-de-correspondance-de-donnees)
+    - [Activité 4.3 : Consolidation, agrégation de données](#activite-43-consolidation-agregation-de-donnees)
+    - [Activité 4.4 : Contrôler les flux de données entre les logiciels](#activite-44-controler-les-flux-de-donnees-entre-les-logiciels)
+    - [Activité 4.5 : Réalisation d’un environnement de tests](#activite-45-realisation-dun-environnement-de-tests)
+
+\newpage
 
 \newpage
 
@@ -11,14 +58,12 @@ _Document généré automatiquement à partir des blocs 1 à 4._
 \newpage
 
 
-## Compétence 1.1
-
 ## Activité 1.1 : Étude du cahier des charges et de l’existant. Rédaction du cahier des spécifications fonctionnelles
 
 J'ai pu acquérir cette compétence dans le cadre de mon alternance, lors d'une évolution fonctionnelle de l'API Nomenclatures utilisée par notre BFF assuré.
 
 Dans le cadre du développement d'une fonctionnalité permettant de lister les pays, un besoin métier a été exprimé afin d'identifier les pays considérés comme "à risque". Les valeurs de nomenclature pouvant être rattachées à un groupe, les pays à risque étaient définis comme appartenant au groupe identifié par le code 945.
-Pour répondre à ce besoin, une évolution de l'API Nomenclatures était nécessaire. La demande m'a été transmise via un ticket GitLab (voir `c1.png` dans le zip de preuves).
+Pour répondre à ce besoin, une évolution de l'API Nomenclatures était nécessaire. La demande m'a été transmise via un ticket GitLab (voir `c1.png` dans le zip d'annexes).
 
 Cette analyse m'a permis d'identifier les critères fonctionnels suivants :
 
@@ -33,7 +78,7 @@ Lorsque ce paramètre est renseigné, les résultats sont filtrés sur le groupe
 Grâce à cette évolution, le BFF est désormais capable de récupérer la liste des pays appartenant au groupe des pays à risque. Une logique complémentaire a ensuite été mise en œuvre au niveau du BFF afin d'ajouter à chaque pays un indicateur précisant s'il est considéré comme un pays à risque ou non.
 
 
-**Preuves associées** (voir `preuves_completes.zip/bloc1/1.1/`) :
+**Annexes associées** (voir `annexes_completes.zip/bloc1/1.1/`) :
 
 - `c1.png`
 
@@ -45,17 +90,15 @@ Grâce à cette évolution, le BFF est désormais capable de récupérer la list
 ---
 
 
-## Compétence 1.2
-
 ## Activité 1.2 : Conception d’une application logicielle
 
 
 ---
 
 
-## Compétence 1.3
+## Activité 1.3 et 1.4
 
-## Bloc 1.3 — Programmation de briques et services logiciels. Conception de services métiers
+### Activité 1.3 — Programmation de briques et services logiciels. Conception de services métiers
 
 J'ai acquis cette compétence lors de la conception et du développement de l'API d'ITeralis, une plateforme communautaire permettant de consulter et partager gratuitement des cours de cybersécurité en français.
 
@@ -99,31 +142,11 @@ Cette architecture présente plusieurs avantages :
 Enfin, les fonctionnalités transverses, telles que la gestion globale des exceptions ou certaines méthodes d'extension, ont été regroupées dans le projet `ITeralis.Utilitaires`. Ces briques peuvent ainsi être utilisées par l'ensemble de l'application sans duplication de code.
 
 Cette organisation m'a permis de concevoir une architecture fiable, évolutive et réutilisable, répondant aux besoins fonctionnels du projet tout en facilitant ses futures évolutions.
-
-
-**Preuves associées** (voir `preuves_completes.zip/bloc1/1.3/`) :
-
-- `abstraction.png`
-
-- `application.png`
-
-- `domain.png`
-
-- `exempleEndpoint.png`
-
-- `repository.png`
-
-- `schema.drawio`
-
-- `utilitaires.png`
-
+-e 
 
 ---
 
-
-## Compétence 1.4
-
-## Activité 1.4 : Conception de services d'accès aux données
+### Activité 1.4 — Conception de services d'accès aux données
 
 J'ai acquis cette compétence lors du développement de l'API ITeralis, une plateforme permettant la consultation et le partage de cours de cybersécurité.
 
@@ -171,25 +194,37 @@ Au niveau de la base de données, plusieurs contraintes garantissent la cohéren
 Enfin, l'ensemble des accès aux données est réalisé via Entity Framework Core et LINQ. Les requêtes SQL sont générées automatiquement par l'ORM et paramétrées par défaut, ce qui limite les risques liés aux injections SQL.
 
 
-**Preuves associées** (voir `preuves_completes.zip/bloc1/1.4/`) :
+**Annexes associées** (voir `annexes_completes.zip/bloc1/1.3_1.4/`) :
 
 - `Thumbs.db`
 
+- `abstraction.png`
+
+- `application.png`
+
 - `dbContext.png`
+
+- `domain.png`
+
+- `exempleEndpoint.png`
 
 - `impl#U00e9mentation.png`
 
 - `methodes.png`
 
+- `repository.png`
+
+- `schema.drawio`
+
 - `script.png`
+
+- `utilitaires.png`
 
 
 ---
 
 
-## Compétence 1.5
-
-## Activité 1.5 : Préparation des jeux de tests unitaires
+## Activité 1.5 et 1.6 : Préparation des jeux de tests unitaires, contrôles de l'existence d'anomalies
 
 J'ai acquis cette compétence lors de la réalisation du CatchErrorBuilder, une bibliothèque utilisée dans les API BFF de l'entreprise afin de simplifier et centraliser la gestion des erreurs.
 
@@ -220,7 +255,7 @@ Cette démarche m'a permis de disposer d'un référentiel de validation clair et
 La définition préalable de ces jeux de tests a contribué à sécuriser le développement du composant et à garantir un comportement cohérent quelles que soient les exceptions rencontrées, facilitant ainsi son intégration dans les différentes API de l'entreprise tout en limitant les risques de régression lors des évolutions futures.
 
 
-**Preuves associées** (voir `preuves_completes.zip/bloc1/1.5/`) :
+**Annexes associées** (voir `annexes_completes.zip/bloc1/1.5_1.6/`) :
 
 - `resultats.png`
 
@@ -229,17 +264,6 @@ La définition préalable de ces jeux de tests a contribué à sécuriser le dé
 
 ---
 
-
-## Compétence 1.6
-
-
-> ⚠️ **Contenu manquant.** Aucun texte n'a encore été rédigé pour la compétence 1.6. À compléter avant la génération du PDF final.
-
-
----
-
-
-## Compétence 1.7
 
 ## Activité 1.7 : Détermination du nombre de tiers de l'application
 
@@ -274,7 +298,7 @@ J'ai également mis en place une séparation réseau entre les services. La base
 Cette architecture me permet d'anticiper les évolutions futures de la plateforme en répartissant les traitements entre plusieurs tiers spécialisés et en conservant la possibilité d'augmenter indépendamment les ressources allouées à chacun d'eux.
 
 
-**Preuves associées** (voir `preuves_completes.zip/bloc1/1.7/`) :
+**Annexes associées** (voir `annexes_completes.zip/bloc1/1.7/`) :
 
 - `Thumbs.db`
 
@@ -287,8 +311,6 @@ Cette architecture me permet d'anticiper les évolutions futures de la plateform
 
 ---
 
-
-## Compétence 1.8
 
 ## Activité 1.8 : Réalisation d'une interface homme/machine (IHM) adaptative aux situations de handicap
 
@@ -318,7 +340,7 @@ Enfin, j'ai respecté plusieurs bonnes pratiques fondamentales d'accessibilité 
 L'accessibilité a ainsi été prise en compte dès la conception de l'interface et non comme une correction ajoutée après développement. Cette démarche a permis de produire une interface plus inclusive, conforme aux recommandations du RGAA et des WCAG.
 
 
-**Preuves associées** (voir `preuves_completes.zip/bloc1/1.8/`) :
+**Annexes associées** (voir `annexes_completes.zip/bloc1/1.8/`) :
 
 - `app.md`
 
@@ -329,8 +351,6 @@ L'accessibilité a ainsi été prise en compte dès la conception de l'interface
 
 ---
 
-
-## Compétence 1.9
 
 ## Activité 1.9 : Estimation, qualification des risques de sécurité
 
@@ -373,7 +393,7 @@ Chargement RBAC
 Contrôle accès utilisateur
 
 
-**Preuves associées** (voir `preuves_completes.zip/bloc1/1.9/`) :
+**Annexes associées** (voir `annexes_completes.zip/bloc1/1.9/`) :
 
 - `permissions_utilisateur.json`
 
@@ -382,8 +402,6 @@ Contrôle accès utilisateur
 
 ---
 
-
-## Compétence 1.10
 
 ## Activité 1.10 : Amélioration de la qualité du logiciel et du code produit
 
@@ -410,15 +428,13 @@ Le développement de cette bibliothèque a également respecté les conventions 
 Aujourd'hui, le composant est utilisé dans l'API BFF Assuré. Son architecture a été pensée pour être réutilisable dans les autres API BFF de l'entreprise, permettant ainsi de mutualiser la gestion des erreurs et de conserver un comportement homogène entre les différents services.
 
 
-**Preuves associées** (voir `preuves_completes.zip/bloc1/1.10/`) :
+**Annexes associées** (voir `annexes_completes.zip/bloc1/1.10/`) :
 
 - `utilisation.md`
 
 
 ---
 
-
-## Compétence 1.11
 
 ## Activité 1.11 : Programmation de l'accès aux données de l'entreprise
 
@@ -447,7 +463,7 @@ Cette approche permet d'éviter l'exposition directe des erreurs SQL aux utilisa
 L'ensemble de ces mécanismes contribue à garantir l'intégrité des données, à limiter les risques de corruption de la base et à sécuriser les accès aux informations manipulées par la plateforme ITeralis.
 
 
-**Preuves associées** (voir `preuves_completes.zip/bloc1/1.11/`) :
+**Annexes associées** (voir `annexes_completes.zip/bloc1/1.11/`) :
 
 - `Thumbs.db`
 
@@ -468,8 +484,6 @@ L'ensemble de ces mécanismes contribue à garantir l'intégrité des données, 
 
 \newpage
 
-
-## Compétences 2.1 & 2.2
 
 ## Activités 2.1 et 2.2 : Étude des procédures existantes, identification des procédures en place et contrôle de leur conformité avec la gouvernance de l'entreprise
 
@@ -535,7 +549,7 @@ En appliquant systématiquement ce processus, j'ai participé au respect des pro
 Cette expérience m'a permis de comprendre l'importance des procédures dans le pilotage des développements et de mesurer leur rôle dans la maîtrise des risques liés aux projets informatiques.
 
 
-**Preuves associées** (voir `preuves_completes.zip/bloc2/2.1_2.2/`) :
+**Annexes associées** (voir `annexes_completes.zip/bloc2/2.1_2.2/`) :
 
 - `codeReview.png`
 
@@ -552,8 +566,6 @@ Cette expérience m'a permis de comprendre l'importance des procédures dans le 
 
 ---
 
-
-## Compétence 2.3
 
 ## Activité 2.3 : Reconfiguration de processus
 
@@ -575,7 +587,7 @@ Cette évolution a permis de séparer les données de configuration de la logiqu
 Afin d'illustrer cette transformation, j'ai réalisé une comparaison entre l'ancien et le nouveau fonctionnement.
 
 
-**Preuves associées** (voir `preuves_completes.zip/bloc2/2.3/`) :
+**Annexes associées** (voir `annexes_completes.zip/bloc2/2.3/`) :
 
 - `apres.md`
 
@@ -585,9 +597,7 @@ Afin d'illustrer cette transformation, j'ai réalisé une comparaison entre l'an
 ---
 
 
-## Compétence 2.4
-
-## Activite 2.4 : Recensement des documents utilisés, cartographie de leur circulation
+## Activité 2.4 : Recensement des documents utilisés, cartographie de leur circulation
 
 J'ai acquis cette compétence dans le cadre de mon alternance sur le projet BFF Assuré.
 
@@ -617,7 +627,7 @@ Note Annexe
 Les étapes de revue de code, recette et mise en production font partie du workflow standard de l'équipe. Bien que je ne dispose plus de captures de ces étapes pour cette évolution, elles ont été intégrées au diagramme de circulation documentaire afin de représenter le processus effectivement suivi au sein du projet.
 
 
-**Preuves associées** (voir `preuves_completes.zip/bloc2/2.4/`) :
+**Annexes associées** (voir `annexes_completes.zip/bloc2/2.4/`) :
 
 - `SFD.docx`
 
@@ -634,8 +644,6 @@ Les étapes de revue de code, recette et mise en production font partie du workf
 
 ---
 
-
-## Compétence 2.5
 
 ## Activité 2.5 : Conception d'une base de données
 
@@ -668,7 +676,7 @@ Enfin, les relations entre les différentes entités ont été formalisées au t
 Cette modélisation m'a permis de concevoir une base de données adaptée aux besoins fonctionnels de l'application tout en conservant une structure cohérente, évolutive et maintenable.
 
 
-**Preuves associées** (voir `preuves_completes.zip/bloc2/2.5/`) :
+**Annexes associées** (voir `annexes_completes.zip/bloc2/2.5/`) :
 
 - `diagramme.png`
 
@@ -677,8 +685,6 @@ Cette modélisation m'a permis de concevoir une base de données adaptée aux be
 
 ---
 
-
-## Compétence 2.6
 
 ## Activité 2.6 : Conception de l'architecture applicative
 
@@ -749,7 +755,7 @@ Exemples :
 - consommation par le front web et l'application mobile.
 
 
-**Preuves associées** (voir `preuves_completes.zip/bloc2/2.6/`) :
+**Annexes associées** (voir `annexes_completes.zip/bloc2/2.6/`) :
 
 - `chargement.md`
 
@@ -762,8 +768,6 @@ Exemples :
 
 ---
 
-
-## Compétence 2.7
 
 ## Activité 2.7 : Conception de la solution logicielle
 
@@ -837,7 +841,7 @@ Ainsi :
 Cette solution a permis de conserver le sens métier des erreurs lors des échanges entre APIs, d'éviter la perte d'information liée à l'encapsulation des exceptions et de simplifier fortement la lecture des endpoints. Le choix de développer ce composant plutôt que de gérer les exceptions individuellement dans chaque endpoint a permis de standardiser le traitement des erreurs, d'améliorer la maintenabilité du code et de garantir un comportement homogène au sein du BFF Assuré.
 
 
-**Preuves associées** (voir `preuves_completes.zip/bloc2/2.7/`) :
+**Annexes associées** (voir `annexes_completes.zip/bloc2/2.7/`) :
 
 - `AvantApres.md`
 
@@ -850,8 +854,6 @@ Cette solution a permis de conserver le sens métier des erreurs lors des échan
 
 ---
 
-
-## Compétence 2.8
 
 ## Activité 2.8 : Planification des tâches du projet
 
@@ -874,7 +876,7 @@ Au fil de mon alternance, j'ai ainsi appris à :
 Cette démarche permet d'améliorer la visibilité sur l'ensemble des activités réalisées et contribue à une meilleure organisation du travail au sein de l'équipe.
 
 
-**Preuves associées** (voir `preuves_completes.zip/bloc2/2.8/`) :
+**Annexes associées** (voir `annexes_completes.zip/bloc2/2.8/`) :
 
 - `NR2 Suivi avancement Semaine du 30042026.msg`
 
@@ -885,8 +887,6 @@ Cette démarche permet d'améliorer la visibilité sur l'ensemble des activités
 
 ---
 
-
-## Compétence 2.9
 
 ## Activité 2.9 : Coordination Agile de la programmation en équipe
 
@@ -909,7 +909,7 @@ Cette organisation favorisait une communication continue entre les différents a
 Ces pratiques m'ont permis d'apprendre à travailler dans un environnement Agile, à communiquer efficacement sur l'état d'avancement de mes tâches et à participer à la coordination des développements réalisés par l'équipe.
 
 
-**Preuves associées** (voir `preuves_completes.zip/bloc2/2.9/`) :
+**Annexes associées** (voir `annexes_completes.zip/bloc2/2.9/`) :
 
 - `blocage.png`
 
@@ -920,8 +920,6 @@ Ces pratiques m'ont permis d'apprendre à travailler dans un environnement Agile
 
 ---
 
-
-## Compétence 2.10
 
 ## Activité 2.10 : Recettage du logiciel
 
@@ -943,7 +941,7 @@ Une fois les vérifications effectuées, la recette a été prononcée et formal
 Cette étape m'a permis de participer au processus de validation fonctionnelle d'une évolution logicielle et de comprendre l'importance de la formalisation de l'acceptation d'un livrable avant sa mise en exploitation.
 
 
-**Preuves associées** (voir `preuves_completes.zip/bloc2/2.10/`) :
+**Annexes associées** (voir `annexes_completes.zip/bloc2/2.10/`) :
 
 - `PV de recette_CHG0060931.docx`
 
@@ -952,8 +950,6 @@ Cette étape m'a permis de participer au processus de validation fonctionnelle d
 
 ---
 
-
-## Compétence 2.11
 
 ## Activité 2.11 : Démonstrations et recettage des livrables aux clients
 
@@ -979,7 +975,7 @@ Les échanges ont permis de valider la pertinence de la solution dans le context
 Cette présentation m'a permis de développer ma capacité à adapter mon discours à différents interlocuteurs techniques, à vulgariser des concepts d'architecture logicielle et à justifier des choix de conception réalisés dans un contexte professionnel.
 
 
-**Preuves associées** (voir `preuves_completes.zip/bloc2/2.11/`) :
+**Annexes associées** (voir `annexes_completes.zip/bloc2/2.11/`) :
 
 - `Pr#U00e9sentation du pattern Builder.pptx`
 
@@ -988,8 +984,6 @@ Cette présentation m'a permis de développer ma capacité à adapter mon discou
 
 ---
 
-
-## Compétence 2.12
 
 ## Activité 2.12 : Validation de mise en exploitation
 
@@ -1032,7 +1026,7 @@ Cette démarche contribue à sécuriser les mises en production et à garantir q
 Cette activité m'a permis de comprendre les différentes étapes précédant une mise en exploitation, l'importance des validations réalisées en amont ainsi que les contrôles effectués après le déploiement afin de s'assurer du bon fonctionnement des applications en production.
 
 
-**Preuves associées** (voir `preuves_completes.zip/bloc2/2.12/`) :
+**Annexes associées** (voir `annexes_completes.zip/bloc2/2.12/`) :
 
 - `MergeRequest.png`
 
@@ -1045,8 +1039,6 @@ Cette activité m'a permis de comprendre les différentes étapes précédant un
 
 ---
 
-
-## Compétences 2.13 & 2.14
 
 ## Activités 2.13 et 2.14 : Participation aux réunions, échanges avec les utilisateurs et communication avec les acteurs du projet
 
@@ -1093,7 +1085,7 @@ Cette participation aux échanges fonctionnels et techniques ainsi que la rédac
 Ces activités ont contribué à améliorer la circulation de l'information au sein de l'équipe et à garantir une compréhension commune des besoins, des développements réalisés et des solutions mises en œuvre.
 
 
-**Preuves associées** (voir `preuves_completes.zip/bloc2/2.13_2.14/`) :
+**Annexes associées** (voir `annexes_completes.zip/bloc2/2.13_2.14/`) :
 
 - `docEN.md`
 
@@ -1114,8 +1106,6 @@ Ces activités ont contribué à améliorer la circulation de l'information au s
 
 \newpage
 
-
-## Compétence 3.1
 
 ## Activité 3.1 : Définir les spécifications techniques et fonctionnelles de l’application numérique
 
@@ -1160,7 +1150,7 @@ La présentation de ces résultats a permis de répondre aux interrogations tech
 Cette démarche m'a permis d'apprendre à rechercher et comparer plusieurs solutions techniques, à formaliser leurs avantages et leurs limites, puis à présenter mes conclusions afin de faciliter la prise de décision
 
 
-**Preuves associées** (voir `preuves_completes.zip/bloc3/3.1/`) :
+**Annexes associées** (voir `annexes_completes.zip/bloc3/3.1/`) :
 
 - `Tests d#U2019architecture.pptx`
 
@@ -1171,8 +1161,6 @@ Cette démarche m'a permis d'apprendre à rechercher et comparer plusieurs solut
 
 ---
 
-
-## Compétence 3.2
 
 ## Activité 3.2 : Développer à partir des spécifications fonctionnelles des algorithmes
 
@@ -1242,7 +1230,7 @@ La décomposition préalable du problème m'a permis d'identifier clairement les
 Cette démarche m'a permis de transformer une spécification fonctionnelle complexe en un algorithme structuré puis en une solution logicielle répondant aux besoins exprimés par le projet.
 
 
-**Preuves associées** (voir `preuves_completes.zip/bloc3/3.2/`) :
+**Annexes associées** (voir `annexes_completes.zip/bloc3/3.2/`) :
 
 - `Executer.md`
 
@@ -1251,8 +1239,6 @@ Cette démarche m'a permis de transformer une spécification fonctionnelle compl
 
 ---
 
-
-## Compétence 3.3
 
 ## Activité 3.3 : Transcription des algorithmes en code source
 
@@ -1321,7 +1307,7 @@ Afin de contrôler le résultat produit, j'ai également développé un endpoint
 Cette activité m'a permis de transformer des règles fonctionnelles complexes de gestion des autorisations en un algorithme structuré puis en une implémentation logicielle capable de construire dynamiquement les permissions utilisées par le système d'information.
 
 
-**Preuves associées** (voir `preuves_completes.zip/bloc3/3.3/`) :
+**Annexes associées** (voir `annexes_completes.zip/bloc3/3.3/`) :
 
 - `exemplePartenaire.json`
 
@@ -1332,8 +1318,6 @@ Cette activité m'a permis de transformer des règles fonctionnelles complexes d
 
 ---
 
-
-## Compétence 3.4
 
 ## Activité 3.4 : Modification d’un code existant et de son algorithme
 
@@ -1371,7 +1355,7 @@ Après la modification du code, plusieurs vérifications ont été réalisées a
 Cette évolution m'a permis de modifier un algorithme existant en comprenant son fonctionnement initial, puis en l'adaptant à une nouvelle architecture tout en garantissant la compatibilité du résultat attendu.
 
 
-**Preuves associées** (voir `preuves_completes.zip/bloc3/3.4/`) :
+**Annexes associées** (voir `annexes_completes.zip/bloc3/3.4/`) :
 
 - `avant.md`
 
@@ -1385,9 +1369,7 @@ Cette évolution m'a permis de modifier un algorithme existant en comprenant son
 ---
 
 
-## Compétence 3.5
-
-## Actvité 3.5 : Compilation, déverminage du code source
+## Activité 3.5 : Compilation, déverminage du code source
 
 J'ai acquis cette compétence lors du développement d'une évolution du BFF Assuré.
 
@@ -1411,7 +1393,7 @@ Les résultats obtenus ont confirmé la correction du problème ainsi que le bon
 Cette activité m'a permis de mettre en œuvre une démarche complète de déverminage : reproduction d'une anomalie, analyse en mode Debug, identification de la cause racine, correction du code puis validation du comportement attendu au travers de tests techniques.
 
 
-**Preuves associées** (voir `preuves_completes.zip/bloc3/3.5/`) :
+**Annexes associées** (voir `annexes_completes.zip/bloc3/3.5/`) :
 
 - `Exception.png`
 
@@ -1426,8 +1408,6 @@ Cette activité m'a permis de mettre en œuvre une démarche complète de déver
 
 ---
 
-
-## Compétences 3.6 & 3.7
 
 ## Activité 3.6 et 3.7 : Agglomération des différents éléments logiciels en unités de traitement et intégration de fonctionnalités préprogrammées
 
@@ -1488,7 +1468,7 @@ Cette démarche présente également un intérêt en matière d'éco-conception 
 L'ensemble de ces composants a été intégré afin de produire une application cohérente, prête à être soumise aux tests techniques puis déployée dans les différents environnements de l'entreprise.
 
 
-**Preuves associées** (voir `preuves_completes.zip/bloc3/3.6_3.7/`) :
+**Annexes associées** (voir `annexes_completes.zip/bloc3/3.6_3.7/`) :
 
 - `config.md`
 
@@ -1499,8 +1479,6 @@ L'ensemble de ces composants a été intégré afin de produire une application 
 
 ---
 
-
-## Compétence 3.8
 
 ## Activité 3.8 : Réalisation des tests unitaires
 
@@ -1539,7 +1517,7 @@ Cette démarche m'a également permis de vérifier l'absence de régression fonc
 L'ensemble des tests étant validés, les résultats obtenus ont confirmé que le composant produisait les réponses attendues dans tous les scénarios couverts et qu'aucun défaut d'exécution n'était détecté sur les cas de test définis.
 
 
-**Preuves associées** (voir `preuves_completes.zip/bloc3/3.8/`) :
+**Annexes associées** (voir `annexes_completes.zip/bloc3/3.8/`) :
 
 - `resultat.png`
 
@@ -1552,8 +1530,6 @@ L'ensemble des tests étant validés, les résultats obtenus ont confirmé que l
 
 ---
 
-
-## Compétence 3.9
 
 ## Activité 3.9 : Mise à jour du planning de réalisation
 
@@ -1586,7 +1562,7 @@ Cette activité m'a permis de développer ma capacité à :
 La mise à jour de ce suivi hebdomadaire a ainsi contribué au pilotage des projets de l'équipe et à une meilleure visibilité de l'avancement des développements réalisés pendant mon alternance.
 
 
-**Preuves associées** (voir `preuves_completes.zip/bloc3/3.9/`) :
+**Annexes associées** (voir `annexes_completes.zip/bloc3/3.9/`) :
 
 - `NR2 Suivi avancement Semaine du 30042026.msg`
 
@@ -1603,8 +1579,6 @@ La mise à jour de ce suivi hebdomadaire a ainsi contribué au pilotage des proj
 
 \newpage
 
-
-## Compétence 4.1
 
 ## Activité 4.1 : Rétro-documentation de logiciels et de bases de données
 
@@ -1667,7 +1641,7 @@ Elle permet aujourd'hui à un développeur de comprendre rapidement le rôle du 
 Cette activité m'a permis de développer ma capacité à étudier un logiciel existant, à comprendre son fonctionnement interne puis à formaliser ces connaissances sous forme d'une documentation technique fiable, utilisable et maintenable par les membres de l'équipe.
 
 
-**Preuves associées** (voir `preuves_completes.zip/bloc4/4.1/`) :
+**Annexes associées** (voir `annexes_completes.zip/bloc4/4.1/`) :
 
 - `_static/image.png`
 
@@ -1678,8 +1652,6 @@ Cette activité m'a permis de développer ma capacité à étudier un logiciel e
 
 ---
 
-
-## Compétence 4.2
 
 ## Activité 4.2 : Mise au point de tables de correspondance de données
 
@@ -1754,7 +1726,7 @@ Cette approche facilite la maintenance du système tout en garantissant qu'aucun
 Cette activité m'a permis d'analyser les modèles de données de deux applications distinctes puis de formaliser les règles de correspondance nécessaires à leurs échanges.
 
 
-**Preuves associées** (voir `preuves_completes.zip/bloc4/4.2/`) :
+**Annexes associées** (voir `annexes_completes.zip/bloc4/4.2/`) :
 
 - `mapper.md`
 
@@ -1763,8 +1735,6 @@ Cette activité m'a permis d'analyser les modèles de données de deux applicati
 
 ---
 
-
-## Compétence 4.3
 
 ## Activité 4.3 : Consolidation, agrégation de données
 
@@ -1861,7 +1831,7 @@ Cette approche permet de produire des informations directement exploitables par 
 Cette activité m'a permis de mettre en œuvre un mécanisme d'agrégation de données provenant de plusieurs APIs du système d'information. Les informations retournées par le BPM ont été enrichies à l'aide de données récupérées dans NR2 afin de produire une nouvelle information métier, directement exploitable par les applications clientes, sans leur imposer la connaissance des règles de consolidation sous-jacentes.
 
 
-**Preuves associées** (voir `preuves_completes.zip/bloc4/4.3/`) :
+**Annexes associées** (voir `annexes_completes.zip/bloc4/4.3/`) :
 
 - `SplitIdentifiant.md`
 
@@ -1874,8 +1844,6 @@ Cette activité m'a permis de mettre en œuvre un mécanisme d'agrégation de do
 
 ---
 
-
-## Compétence 4.4
 
 ## Activité 4.4 : Contrôler les flux de données entre les logiciels
 
@@ -1965,7 +1933,7 @@ L'ensemble des fonctionnalités développées repose ainsi sur des flux synchron
 Cette activité m'a permis d'acquérir une compréhension approfondie des mécanismes d'échange de données entre applications et des contraintes liées à la compatibilité des systèmes communiquant entre eux.
 
 
-**Preuves associées** (voir `preuves_completes.zip/bloc4/4.4/`) :
+**Annexes associées** (voir `annexes_completes.zip/bloc4/4.4/`) :
 
 - `configClient.md`
 
@@ -1976,8 +1944,6 @@ Cette activité m'a permis d'acquérir une compréhension approfondie des mécan
 
 ---
 
-
-## Compétence 4.5
 
 ## Activité 4.5 : Réalisation d’un environnement de tests
 
@@ -2121,7 +2087,7 @@ docker compose down
 La mise en place de cet environnement m'a permis de disposer d'une plateforme complète de développement et de validation, fidèle à l'architecture réelle de l'application. L'ensemble des composants peut être déployé de façon reproductible sur n'importe quelle machine disposant de Docker, ce qui facilite les tests techniques et garantit l'homogénéité des environnements utilisés par les différents développeurs du projet.
 
 
-**Preuves associées** (voir `preuves_completes.zip/bloc4/4.5/`) :
+**Annexes associées** (voir `annexes_completes.zip/bloc4/4.5/`) :
 
 - `docker-compose.yml`
 
